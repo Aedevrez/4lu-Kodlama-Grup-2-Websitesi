@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 20vw;
+    padding-top: 3vh;
+}
+
+header h1 {
+    display: flex;
+    margin: 0px;
+    align-items: center
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    list-style-type: none;
+    margin: 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.kartlar {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.kart {
+    height: 80vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 3vh;
+}
+
+.kart h4 {
+    margin: 0px;;
+}
+
+.kart p {
+    margin: 0px;    
+}
+
+.kart .resim {
+    width: 30vw;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.kart .mozart {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Wolfgang-amadeus-mozart_1.jpg/330px-Wolfgang-amadeus-mozart_1.jpg");
+}
+.kart .beethoven {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/300px-Beethoven.jpg");
+}
+
+.kart .bach {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Johann_Sebastian_Bach.jpg/330px-Johann_Sebastian_Bach.jpg");
+    background-position: top;
+}
+
+.kart .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+
+.kart .Vivaldi {
+    background-image: url("https://cdn.britannica.com/34/144034-050-263CF4C1/Antonio-Vivaldi-writing-desk.jpg");
+}
+.kart .Chopin {
+    background-image: url("https://i.pinimg.com/236x/2f/b0/e1/2fb0e15d69ab072489385ae6b738cd43.jpg");
+}
+.kart .Ludovico {
+    background-image: url("https://images.immediate.co.uk/production/volatile/sites/24/2021/01/Who-is-Ludovico-Einaudi-9789104.jpg" );
+    background-position: top;
+}
+
+.kart .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.müzisyen {
+  font-size:15px;
+  height: 80vh;
+  width:60vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:start;
+  gap:3vh;
+  padding:1vh;
+}
+.wagner{
+  width: 30vw;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUc6o4MIyZ3nsA3UCkgjpZ7jIJd3RQBPZonw&usqp=CAU")
+}
+.test{
+  width: 30vw;
+  height: 40vh;
+  display:flex;
+}
+.iki{display: flex;
+justify-content:center;
+gap:5vh
+}
+
+div.tere{
+  text-align:center;
+  font-size: 30px;
+  font-style:italic;
+  width: 60vw;
+  height: 40vh;
+  background-color: black;
+  color:white;
+  justify-content: center;
+
+}
+
+.tere{
+  display: flex;
+  justify-content: column;
+  flex-direction: column;
+}
+
+
+#text {
+  display: flex;
+  justify-content:center;
+  flex-flow: column;
+}
