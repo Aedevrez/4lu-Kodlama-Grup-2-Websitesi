@@ -48,7 +48,7 @@ header a {
 }
 
 .kart h4 {
-    margin: 0px;;
+    margin: 0px;
 }
 
 .kart p {
@@ -80,72 +80,3 @@ header a {
     gap: 1vh;
 }
 
-
-.kart .Vivaldi {
-    background-image: url("https://cdn.britannica.com/34/144034-050-263CF4C1/Antonio-Vivaldi-writing-desk.jpg");
-}
-.kart .Chopin {
-    background-image: url("https://i.pinimg.com/236x/2f/b0/e1/2fb0e15d69ab072489385ae6b738cd43.jpg");
-}
-.kart .Ludovico {
-    background-image: url("https://images.immediate.co.uk/production/volatile/sites/24/2021/01/Who-is-Ludovico-Einaudi-9789104.jpg" );
-    background-position: top;
-}
-
-.kart .text {
-    display: flex;
-    flex-direction: column;
-    gap: 1vh;
-}
-
-.müzisyen {
-  font-size:15px;
-  height: 80vh;
-  width:60vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:start;
-  gap:3vh;
-  padding:1vh;
-}
-.wagner{
-  width: 30vw;
-  height: 40vh;
-  background-size: cover;
-  background-position: center;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUc6o4MIyZ3nsA3UCkgjpZ7jIJd3RQBPZonw&usqp=CAU")
-}
-.test{
-  width: 30vw;
-  height: 40vh;
-  display:flex;
-}
-.iki{display: flex;
-justify-content:center;
-gap:5vh
-}
-
-div.tere{
-  text-align:center;
-  font-size: 30px;
-  font-style:italic;
-  width: 60vw;
-  height: 40vh;
-  background-color: black;
-  color:white;
-  justify-content: center;
-
-}
-
-.tere{
-  display: flex;
-  justify-content: column;
-  flex-direction: column;
-}
-
-
-#text {
-  display: flex;
-  justify-content:center;
-  flex-flow: column;
-}
