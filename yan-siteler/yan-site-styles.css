@@ -1,5 +1,5 @@
 body {
-    background-color: #f0f8ff;
+    background-color: #fafcf0;
     margin: 0px;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: center;
     gap: 20vw;
-    padding-top: 3vh;
+    padding: 3vh 0px;
 }
 
 header h1 {
@@ -34,6 +34,13 @@ header ul {
 header a {
     text-decoration: none;
     color: #1c1c1c;
+}
+
+.kartlar {
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
 }
 
 .kartlar-tür {
@@ -108,11 +115,20 @@ header a {
   flex-direction:column;
   justify-content:start;
   gap:3vh;
-  padding:1vh;
+  align-items: center;
 }
+
+.wagner h4 {
+    padding: 0px;
+}
+
+.wagner p {
+    padding: 0px;
+}
+
 .wagner{
-  width: 30vw;
-  height: 40vh;
+  width: 100%;
+  height: 50vh;
   background-size: cover;
   background-position: center;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUc6o4MIyZ3nsA3UCkgjpZ7jIJd3RQBPZonw&usqp=CAU")
@@ -122,31 +138,122 @@ header a {
   height: 40vh;
   display:flex;
 }
-.iki{display: flex;
-justify-content:center;
-gap:5vh
+.iki{
+    display: flex;
+    justify-content:center;
+    gap:5vh
 }
 
 div.tere{
   text-align:center;
-  font-size: 30px;
+  font-size: 26px;
   font-style:italic;
-  width: 60vw;
-  height: 40vh;
-  background-color: black;
-  color:white;
+  width: 40vw;
+  height: auto;
   justify-content: center;
 
 }
 
 .tere{
   display: flex;
-  justify-content: column;
   flex-direction: column;
 }
 
 #text {
   display: flex;
-  justify-content:center;
   flex-flow: column;
+}
+
+.kart .resim {
+    width: 30vw;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.kart .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.kart {
+    height: 80vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 3vh;
+}
+
+.kart h4 {
+    margin: 0px;
+}
+
+.kart p {
+    margin: 0px;    
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    background-color: #fafcf0;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vh;
+    align-items: center;
+}
+
+.feed .text {
+    height: auto;
+    width: 40vw;
+}
+
+.button {
+    width: 80%;
+    height: 5vh;
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.enstrümanlar {
+    flex: 1;
+    max-width:50%;
+    padding: 5px;
+    height: 350px;
+    margin:1%;
+    flex-shrink:1;
+    flex-basis:23%;
+    box-sizing:border-box;
+    text-shadow: -1px 1px rgb(0, 0, 0),
+                -2px 2px blue,
+                -2px 3px red;
+    font-family: Verdana ;
+    text-align: center;
+    width: 400px;
+    padding: 30px;
+    border: 22px solid navy;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+body {
+    text-align: center;
+}
+ 
+hr {
+    width: 60%;
+    border-style: solid;
+    color: cornflowerblue;
+    border-width: 2px;
+    text-align: center;
 }
