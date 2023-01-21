@@ -6,11 +6,14 @@ body {
 }
 
 header {
+    position: fixed;
+    background-color: #f0f8ff;
+    border: fixed;
     width: 100vw;
     display: flex;
     justify-content: center;
     gap: 20vw;
-    padding-top: 3vh;
+    padding: 3vh 0px;
 }
 
 header h1 {
@@ -32,6 +35,22 @@ header a {
     color: #1c1c1c;
 }
 
+main {
+    padding-top: 20vh;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffde;
+}
+
+.main-wrapper {
+    font-size: 24px;
+    width: 70vw;
+    height: 90vh;
+}
 .kartlar {
     display: flex;
     justify-content: center;
@@ -94,9 +113,7 @@ header a {
     flex: 1;
     background: linear-gradient(#D74177,#FFE98A);
     max-width:50%;
-    padding: 5px;
-    height: 650px;
-    margin:1%;
+    height: auto;
     flex-shrink:1;
     flex-basis:23%;
     box-sizing:border-box;
@@ -104,15 +121,16 @@ header a {
                 -2px 2px white,
                 -3px 3px white;
     font-family: Verdana ;
-
+    padding: 1vw;
+    justify-content: center;
+    align-items: center;
   }
   .kendini-test-et {
     flex: 1;
     background: linear-gradient(#FB872B,#D9E021);
     max-width:50%;
-    padding: 5px;
-    height: 200px;
-    margin:1%;
+    padding: 1vw;
+    height: auto;
     flex-shrink:1;
     flex-basis:23%;
     box-sizing:border-box;
@@ -125,17 +143,13 @@ header a {
   }
 
 .crew-öneri {
-    flex: 1;
+    display: flex;
     background: linear-gradient(#FB872B,#D9E021);
-    padding: 5px;
-    width: 800px;
-    height: 400px;
-    margin:250px;
     flex-shrink:1;
     flex-basis:23%;
-    text-shadow: -1px 1px rgb(0, 0, 0),
-                -2px 2px black,
-    
+    flex-direction: column;
+    gap: 2vh;
+    padding-bottom: 2vh;
 }
 .adem {
     display: inline-flex;
@@ -166,11 +180,13 @@ header a {
     font-family: Verdana ;
 }
 .test-buton {
-    position: right;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     text-align: right 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.öneri {
+    text-align: center;
 }
 .button {
     background: none;
@@ -182,7 +198,6 @@ header a {
     min-width: 160px;
     margin: 10px;
     cursor: pointer;
-    position: relative;
     transition: color 0.4s linear;
     width: 100px;
     height: 70px;
@@ -212,4 +227,26 @@ header a {
 .button:hover::before {
     transform: scaleX(1)
 
+}
+/*Dege end*/
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: #ffffde;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color:#1c1c1c;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    font-weight: 700;
+    padding-bottom: 4vh;
 }
