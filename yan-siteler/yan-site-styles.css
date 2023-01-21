@@ -256,3 +256,24 @@ hr {
     border-width: 2px;
     text-align: center;
 }
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: #ffffde;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color:#1c1c1c;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    font-weight: 700;
+    padding-bottom: 4vh;
+}
