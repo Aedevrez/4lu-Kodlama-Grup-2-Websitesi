@@ -80,3 +80,136 @@ header a {
     gap: 1vh;
 }
 
+/* Dege (dörtlü KODLAMA)*/
+.alt-bölüm {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+  
+  .günün-onerisi {
+    flex: 1;
+    background: linear-gradient(#D74177,#FFE98A);
+    max-width:50%;
+    padding: 5px;
+    height: 650px;
+    margin:1%;
+    flex-shrink:1;
+    flex-basis:23%;
+    box-sizing:border-box;
+    text-shadow: -1px 1px rgb(0, 0, 0),
+                -2px 2px white,
+                -3px 3px white;
+    font-family: Verdana ;
+
+  }
+  .kendini-test-et {
+    flex: 1;
+    background: linear-gradient(#FB872B,#D9E021);
+    max-width:50%;
+    padding: 5px;
+    height: 200px;
+    margin:1%;
+    flex-shrink:1;
+    flex-basis:23%;
+    box-sizing:border-box;
+    text-shadow: -1px 1px rgb(0, 0, 0),
+                -2px 2px black,
+                -3px 3px black;
+    font-family: Verdana ;
+    gap: 100px;
+
+  }
+
+.crew-öneri {
+    flex: 1;
+    background: linear-gradient(#FB872B,#D9E021);
+    padding: 5px;
+    width: 800px;
+    height: 400px;
+    margin:250px;
+    flex-shrink:1;
+    flex-basis:23%;
+    text-shadow: -1px 1px rgb(0, 0, 0),
+                -2px 2px black,
+    
+}
+.adem {
+    display: inline-flex;
+    float: left;
+    gap: 10px;
+    flex-direction: column;
+    font-family: Verdana ;
+}
+.ege {
+    display: inline-flex;
+    float: center;
+    gap: 10px;
+    flex-direction: column;
+    font-family: Verdana ;
+}
+.beyza {
+    display: inline-flex;
+    float:center top ;
+    gap: 10px;
+    flex-direction: column;
+    font-family: Verdana ;
+}
+.elif {
+    display: inline-flex;
+    float: right;
+    gap: 10px;
+    flex-direction: column;
+    font-family: Verdana ;
+}
+.test-buton {
+    position: right;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: right 200px;
+}
+.button {
+    background: none;
+    border: 2px solid #2c3e50;
+    font-size: 14px;
+    font-family: "Tahoma",sans-serif;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 160px;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.4s linear;
+    width: 100px;
+    height: 70px;
+    text-align: end 200px;
+}
+.button:hover {
+
+    color: white;
+}
+.button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2c3e50;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function:cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.button::before {
+    transform: scaleX(0);
+
+}
+.button:hover::before {
+    transform: scaleX(1)
+
+}
