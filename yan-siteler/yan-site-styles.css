@@ -1,0 +1,85 @@
+body {
+    background-color: #f0f8ff;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+header {
+    position: fixed;
+    background-color: #f0f8ff;
+    border: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 20vw;
+    padding-top: 3vh;
+}
+
+header h1 {
+    display: flex;
+    margin: 0px;
+    align-items: center
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    list-style-type: none;
+    margin: 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.kartlar-tür {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.kart-tür {
+    height: 80vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 3vh;
+}
+
+.kart-tür h4 {
+    margin: 0px;;
+}
+
+.kart-tür p {
+    margin: 0px;
+}
+
+.kart-tür .resim-tür {
+    width: 30vw;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.kart-tür .avangard {
+    background-image: url("https://ecmreviews.files.wordpress.com/2014/04/rle.jpg");
+}
+.kart-tür .koro {
+    background-image: url("https://www.kulturportali.gov.tr/repoKulturPortali/large/EtkinlikHaber/20180327115215611_bursa%20klasik.jpg?format=jpg&quality=50");
+}
+
+.kart-tür .oda{
+    background-image: url("https://static.ohu.edu.tr/uniweb/media/haber/658/rulz22yn.jpg");
+    background-position: top;
+}
+
+.kart-tür .text-tür {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
